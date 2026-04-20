@@ -6,13 +6,21 @@
     <title>My First Webpage</title>
   </head>
   <body>
+    <nav>
+      <p>Youssef Sameh</p>
+      <ul>
+        <li><a href="#bio">Biography</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
     <h1>My first Hello World!</h1>
     <p>
       Today I learned that to start an HTML page in VS code, Just add ! then
       click enter.
     </p>
     <p>Sorry I forgot to introduce myself. My name is...</p>
-    <h2>Youssef Sameh</h2>
+    <h2 id="bio">Youssef Sameh</h2>
     <p>19 Years old</p>
     <p>Computer Science student at Cairo university</p>
     <a href="https://google.com" target="_blank"
@@ -35,7 +43,7 @@
       <li>Working Out</li>
       <li>Chess</li>
     </ol>
-    <h2>Contact me</h2>
+    <h2 id="contact">Contact me</h2>
     <form>
       <label for="name">Name</label>
       <input type="text" id="name" placeholder="Your Name" />
@@ -48,7 +56,7 @@
 
       <button type="submit">Send</button>
     </form>
-    <h2>Projects</h2>
+    <h2 id="projects">Projects</h2>
     <p>Not here yet.. let me cook</p>
     <h3>My Uni Table</h3>
     <table>
